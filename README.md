@@ -20,6 +20,8 @@
 
 - Players can create <b>mountains, hills, or simple smoothen the surface</b> using "sphere brush" & "smooth brush".
 
+If you like to read more information about the keybinds [[Click here]](https://github.com/mr-chibi/worldpainter/wiki/Schematics-Brush)
+
 <h2>How it was written in:</h2>
 <ul>
   <li>Json</li>
