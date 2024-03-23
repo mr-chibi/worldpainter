@@ -1,4 +1,4 @@
-### Mr_Chibi's World Painter
+### Mr_Chibi's World Painter 🖌️
 <p><i>The world is your canvas! Create, Place, & Color the world how you'd imagine it!</i></p>
 
 ## Why Should I install this into my world?
