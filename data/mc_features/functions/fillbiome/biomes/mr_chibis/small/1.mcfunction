@@ -1,0 +1,19 @@
+#
+execute as @s[scores={paint_custom_biome=1}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/blue
+execute as @s[scores={paint_custom_biome=2}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/cyan
+execute as @s[scores={paint_custom_biome=3}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/gray
+execute as @s[scores={paint_custom_biome=4}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/light_blue
+execute as @s[scores={paint_custom_biome=5}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/light_gray
+execute as @s[scores={paint_custom_biome=6}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/lime
+execute as @s[scores={paint_custom_biome=7}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/magenta
+execute as @s[scores={paint_custom_biome=8}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/orange
+execute as @s[scores={paint_custom_biome=9}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/pink
+execute as @s[scores={paint_custom_biome=10}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/poop
+execute as @s[scores={paint_custom_biome=11}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/purple
+execute as @s[scores={paint_custom_biome=12}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/rage
+
+#
+execute as @s[scores={paint_custom_biome=13}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/snow_storm
+execute as @s[scores={paint_custom_biome=14}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/toxic
+execute as @s[scores={paint_custom_biome=15}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/twilight
+execute as @s[scores={paint_custom_biome=16}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-1 ~ ~-1 ~1 ~ ~1 mc_features:enhanced/yellow

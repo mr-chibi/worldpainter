@@ -1,0 +1,23 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "sky_color": 38668,
+    "fog_color": 38668,
+    "water_color": 38668,
+    "water_fog_color": 38668,
+    "grass_color": 38668,
+    "foliage_color": 38668,
+    "particle": {
+      "options": {
+        "type": "mycelium"
+      },
+      "probability": 0.025
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

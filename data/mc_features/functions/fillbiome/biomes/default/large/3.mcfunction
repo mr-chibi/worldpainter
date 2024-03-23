@@ -1,0 +1,23 @@
+#
+execute as @s[scores={paint_biome=41}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:river
+execute as @s[scores={paint_biome=42}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:savanna
+execute as @s[scores={paint_biome=43}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:savanna_plateau
+execute as @s[scores={paint_biome=44}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:small_end_islands
+execute as @s[scores={paint_biome=45}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:snowy_beach
+execute as @s[scores={paint_biome=46}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:snowy_plains
+execute as @s[scores={paint_biome=47}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:snowy_slopes
+execute as @s[scores={paint_biome=48}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:snowy_taiga
+execute as @s[scores={paint_biome=49}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:soul_sand_valley
+execute as @s[scores={paint_biome=50}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:sparse_jungle
+
+#
+execute as @s[scores={paint_biome=51}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:stony_peaks
+execute as @s[scores={paint_biome=52}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:stony_shore
+execute as @s[scores={paint_biome=53}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:sunflower_plains
+execute as @s[scores={paint_biome=54}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:swamp
+execute as @s[scores={paint_biome=55}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:taiga
+execute as @s[scores={paint_biome=56}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:the_end
+execute as @s[scores={paint_biome=57}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:the_void
+execute as @s[scores={paint_biome=58}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:warm_ocean
+execute as @s[scores={paint_biome=59}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:warped_forest
+execute as @s[scores={paint_biome=60}] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 minecraft:windswept_forest
