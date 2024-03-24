@@ -24,7 +24,7 @@ scoreboard objectives add paint_custom_biome_pages trigger
 scoreboard objectives add paint_custom_biome_active_pages dummy
 
 #
-scoreboard players set max_pages paint_custom_biome_pages 1
+scoreboard players set max_pages paint_custom_biome_pages 2
 
 
 #####################################################

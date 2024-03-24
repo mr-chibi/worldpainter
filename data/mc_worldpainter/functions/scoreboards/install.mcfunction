@@ -26,7 +26,7 @@ scoreboard objectives add paint_sphere trigger
 scoreboard objectives add paint_smooth trigger
 
 #
-scoreboard players set max_biome paint_custom_biome 17
+scoreboard players set max_biome paint_custom_biome 35
 scoreboard players set max_commands paint_schematic 6
 scoreboard players set max_commands paint_sphere 3
 scoreboard players set max_commands paint_smooth 3
