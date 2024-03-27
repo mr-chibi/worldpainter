@@ -1,11 +1,11 @@
-#
+# Tool tips:
 function mc_features:scoreboards/reset
 function #mc_features:actionbar
 
-#
+# Hotkey Brush Size:
 function mc_features:tags/brush_size
 
-#
+# Hotkeys Tools:
 function mc_features:tags/biome
 function mc_features:tags/custom_biome
 function mc_features:tags/schematics
@@ -28,3 +28,6 @@ execute as @s[tag=colorCustomBiome,scores={paint_custom_biome_pages=1..}] run fu
 execute as @s[tag=colorSchematics,scores={paint_schematic_pages=1..}] run function mc_schematics:mr_chibis/schematics/init
 execute as @s[tag=colorSphere,scores={paint_sphere_pages=1..}] run function mc_schematics:mr_chibis/sphere/init
 execute as @s[tag=colorSmooth,scores={paint_smooth_pages=1..}] run function mc_schematics:mr_chibis/smooth/init
+
+# Display Particles for "Selected Tool", "Schematics":
+execute as @s[tag=colorSchematics,scores={paint_schematic=1..}] run function mc_features:particles

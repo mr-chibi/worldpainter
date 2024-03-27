@@ -2,7 +2,7 @@
 execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions run summon minecraft:armor_stand ~ ~ ~ {Tags:["prototype"]}
 
 # Paint Roll by amount by [Item] [Type]:
-execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s store result score @s paint_rng run scoreboard players set @s paint_rng 1
+execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s store result score @s paint_rng run random value 1..2
 
 #######################################
 # Paint Schematic [Type]:
@@ -10,7 +10,8 @@ execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecra
 
 # Varient: #1
 # North, East, South, West [Rotation]
-execute as @s[y_rotation=135..-135] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s[scores={paint_rng=1}] align xyz run place template mc_schematics:mr_chibis/stone/varient_1/mud_pattern_1 ~ ~ ~ clockwise_90
-execute as @s[y_rotation=-135..-45] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s[scores={paint_rng=1}] align xyz run place template mc_schematics:mr_chibis/stone/varient_1/mud_pattern_1 ~ ~ ~ 180
-execute as @s[y_rotation=-45..45] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s[scores={paint_rng=1}] align xyz run place template mc_schematics:mr_chibis/stone/varient_1/mud_pattern_1 ~ ~ ~ counterclockwise_90
-execute as @s[y_rotation=45..135] unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s[scores={paint_rng=1}] align xyz run place template mc_schematics:mr_chibis/stone/varient_1/mud_pattern_1 ~ ~ ~ none
+execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s[scores={paint_rng=1}] align xyz run place template mc_schematics:mr_chibis/pillars/stone_varient/stone ~-2.5 ~1 ~-2.5
+
+# Varient: #2
+# North, East, South, West [Rotation]
+execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.75,tag=prototype] at @s[scores={paint_rng=2}] align xyz run place template mc_schematics:mr_chibis/pillars/stone_varient/mossy ~-2.5 ~1 ~-2.5
