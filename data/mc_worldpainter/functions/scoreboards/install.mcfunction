@@ -36,7 +36,7 @@ scoreboard objectives add paint_cube trigger
 scoreboard objectives add paint_fill trigger
 scoreboard objectives add paint_hollow trigger
 scoreboard objectives add paint_outline trigger
-
+scoreboard objectives add paint_walls trigger
 
 #####################################################
 # Paint Box:

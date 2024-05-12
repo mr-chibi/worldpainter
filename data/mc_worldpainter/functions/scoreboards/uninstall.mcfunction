@@ -30,6 +30,7 @@ scoreboard objectives remove paint_cube
 scoreboard objectives remove paint_fill
 scoreboard objectives remove paint_hollow
 scoreboard objectives remove paint_outline
+scoreboard objectives remove paint_walls
 
 #####################################################
 # Brush Sizes:

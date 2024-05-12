@@ -23,6 +23,7 @@ execute as @s[scores={paint_cube=2..}] run function mc_worldpainter:commands/cub
 execute as @s[scores={paint_fill=2..}] run function mc_worldpainter:commands/fill
 execute as @s[scores={paint_hollow=2..}] run function mc_worldpainter:commands/hollow
 execute as @s[scores={paint_outline=2..}] run function mc_worldpainter:commands/outline
+execute as @s[scores={paint_walls=2..}] run function mc_worldpainter:commands/walls
 
 # Error Handling:
 function mc_worldpainter:commands/error/init
@@ -32,6 +33,10 @@ function mc_worldpainter:loops/cube
 function mc_worldpainter:loops/fill
 function mc_worldpainter:loops/hollow
 function mc_worldpainter:loops/outline
+function mc_worldpainter:loops/walls/x1
+function mc_worldpainter:loops/walls/x2
+function mc_worldpainter:loops/walls/z1
+function mc_worldpainter:loops/walls/z2
 
 # Reset Brushsize:
 function mc_worldpainter:scoreboards/brush_size

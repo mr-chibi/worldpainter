@@ -13,6 +13,7 @@ scoreboard players reset @s paint_cube
 scoreboard players reset @s paint_fill
 scoreboard players reset @s paint_hollow
 scoreboard players reset @s paint_outline
+scoreboard players reset @s paint_walls
 
 #
 scoreboard players reset @s paint_brush_size_pages

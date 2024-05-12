@@ -1,5 +1,5 @@
 #
-clear @s minecraft:carrot_on_a_stick{display:{Name:"[{\"text\": \"Paint Brush\"}]",Lore:["[{\"text\": \"Press, 'F' to toggle paint selection.\", \"italic\":false, \"color\": \"#8147FF\"}]"]},Tags:["paint_default_brush"]}
+clear @s minecraft:carrot_on_a_stick[minecraft:custom_name="[{\"text\": \"Paint Brush\"}]",minecraft:lore=['{"text": "Press, \'F\' to toggle paint selection.", "italic":false, "color": "#8147FF"}'],minecraft:custom_data={Tags:["paint_default_brush"]}]
 
 #
 tag @s remove water
