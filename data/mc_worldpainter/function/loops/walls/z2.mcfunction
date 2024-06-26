@@ -1,5 +1,5 @@
 #
-execute as @e[type=minecraft:armor_stand,distance=..32,tag=paint_walls_z2,sort=nearest] at @s as @p at @s run function mc_worldpainter:commands/blocks/setblock
+$execute as @e[type=minecraft:armor_stand,distance=..32,tag=paint_walls_z2,sort=nearest] at @s run setblock ~ ~-1 ~ $(id)
 
 #
 execute as @e[type=minecraft:armor_stand,distance=..32,tag=paint_walls_z2,tag=paint_pos1,sort=nearest] at @s if score @s paint_z < @s paint_walls run scoreboard players add @s paint_z 1

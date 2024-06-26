@@ -50,3 +50,10 @@ scoreboard objectives add paint_math_round dummy
 scoreboard players set min_x paint_x 0
 scoreboard players set min_y paint_y 0
 scoreboard players set min_z paint_z 0
+
+
+# Storage:
+data modify storage brush_sizes tiny set value {x1: -1, z1:-1, x2:1, z2:1}
+data modify storage brush_sizes small set value {x1: -1.5, z1:-1.5, x2:1.5, z2:1.5}
+data modify storage brush_sizes medium set value {x1: -2.5, z1:-2.5, x2:2.5, z2:2.5}
+data modify storage brush_sizes large set value {x1: -3.5, z1:-3.5, x2:3.5, z2:3.5}

@@ -6,6 +6,7 @@ execute as @s unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecra
 
 
 # Brush Size: [Small, Medium, Large]:
-execute if score @s paint_size matches 1 run function #mc_features:fillcustombiome/small
-execute if score @s paint_size matches 3 run function #mc_features:fillcustombiome/medium
-execute if score @s paint_size matches 5 run function #mc_features:fillcustombiome/large
+execute if score @s paint_size matches 1 run function mc_features:fillbiome/biomes/mr_chibis/init with storage minecraft:brush_sizes tiny
+execute if score @s paint_size matches 3 run function mc_features:fillbiome/biomes/mr_chibis/init with storage minecraft:brush_sizes small
+execute if score @s paint_size matches 5 run function mc_features:fillbiome/biomes/mr_chibis/init with storage minecraft:brush_sizes medium
+execute if score @s paint_size matches 7 run function mc_features:fillbiome/biomes/mr_chibis/init with storage minecraft:brush_sizes large

@@ -1,6 +1,5 @@
 # Detect
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}}] add colorPaint
-tag @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}]}] add colorSelection
+tag @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}]}] add colorPaint
 tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Schematic Brush"',"minecraft:custom_data":{Tags:["paint_schematic_brush"]}}}}] add colorSchematics
 tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Biome Brush"',"minecraft:custom_data":{Tags:["paint_biome_brush"]}}}}] add colorBiome
 tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Custom Biome Brush"',"minecraft:custom_data":{Tags:["paint_custom_biome_brush"]}}}}] add colorCustomBiome
@@ -9,8 +8,7 @@ tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraf
 tag @s[nbt={SelectedItem:{id:"minecraft:bucket",components:{"minecraft:custom_name":'"Brush Size"',"minecraft:custom_data":{Tags:["paint_brush_size"]}}}}] add colorBrushSize
 
 # Remove:
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}}] remove colorPaint
-tag @s[nbt=!{Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}]}] remove colorSelection
+tag @s[nbt=!{Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}]}] remove colorPaint
 tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Schematic Brush"',"minecraft:custom_data":{Tags:["paint_schematic_brush"]}}}}] remove colorSchematics
 tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Biome Brush"',"minecraft:custom_data":{Tags:["paint_biome_brush"]}}}}] remove colorBiome
 tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Custom Biome Brush"',"minecraft:custom_data":{Tags:["paint_custom_biome_brush"]}}}}] remove colorCustomBiome
