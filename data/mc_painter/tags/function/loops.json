@@ -1,0 +1,12 @@
+{
+	"values":[
+		"mc_painter:loops/cube",
+		"mc_painter:loops/fill",
+		"mc_painter:loops/hollow",
+		"mc_painter:loops/outline",
+		"mc_painter:loops/walls/x1",
+		"mc_painter:loops/walls/x2",
+		"mc_painter:loops/walls/z1",
+		"mc_painter:loops/walls/z2"
+	]
+}

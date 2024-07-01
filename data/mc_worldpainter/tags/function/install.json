@@ -1,6 +1,6 @@
 {
 	"values": [
-		"mc_worldpainter:scoreboards/install",
-		"mc_worldpainter:scoreboards/hotkeys"
+		"mc_painter:scoreboards/install",
+		"mc_worldpainter:scoreboards/install"
 	]
 }

@@ -1,0 +1,11 @@
+{
+	"values": [
+		"mc_brushes:tags/keybinds/brush_size",
+		"mc_brushes:tags/keybinds/biome",
+		"mc_brushes:tags/keybinds/custom_biome",
+		"mc_brushes:tags/keybinds/schematics",
+		"mc_brushes:tags/keybinds/sphere",
+		"mc_brushes:tags/keybinds/smooth",
+		"mc_brushes:tags/keybinds/reset"
+	]
+}

@@ -1,5 +1,6 @@
 {
 	"values": [
+		"mc_painter:scoreboards/uninstall",
 		"mc_worldpainter:scoreboards/uninstall"
 	]
 }
