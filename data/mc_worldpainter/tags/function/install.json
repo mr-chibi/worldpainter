@@ -1,6 +1,7 @@
 {
 	"values": [
 		"mc_painter:scoreboards/install",
+		"mc_painter:scoreboards/keybinds",
 		"mc_worldpainter:scoreboards/install"
 	]
 }
