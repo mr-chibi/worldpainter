@@ -1,6 +1,6 @@
 # [Enable] / [Disable] Commands:
 function mc_painter:scoreboards/commands/enable
-execute if score @s paint_perms matches ..1 run function mc_worldpainter:scoreboards/commands/disable
+execute if score @s paint_perms matches 1 run function mc_worldpainter:scoreboards/commands/disable
 
 # [Brushes] | [Reset Brush Sizes]:
 function mc_painter:tags/brushes

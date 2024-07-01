@@ -1,11 +1,13 @@
 #
+scoreboard players reset @s paint_pos
 scoreboard players reset @s paint_tools
 scoreboard players reset @s paint_sel
 scoreboard players reset @s paint_size
 scoreboard players reset @s paint_schematic
 scoreboard players reset @s paint_biome
 scoreboard players reset @s paint_custom_biome
-scoreboard players reset @s paint_pos
+scoreboard players reset @s paint_sphere
+scoreboard players reset @s paint_smooth
 
 #
 scoreboard players reset @s paint_cube

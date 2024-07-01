@@ -1,11 +1,13 @@
 #
+scoreboard players enable @s paint_pos
 scoreboard players enable @s paint_tools
 scoreboard players enable @s paint_sel
 scoreboard players enable @s paint_size
 scoreboard players enable @s paint_schematic
 scoreboard players enable @s paint_biome
 scoreboard players enable @s paint_custom_biome
-scoreboard players enable @s paint_pos
+scoreboard players enable @s paint_sphere
+scoreboard players enable @s paint_smooth
 
 #
 scoreboard players enable @s paint_cube
