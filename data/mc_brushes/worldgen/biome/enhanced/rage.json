@@ -11,13 +11,13 @@
     "foliage_color": 16712708,
     "particle": {
       "options": {
-        "type": "crimson_spore"
+        "type": "minecraft:crimson_spore"
       },
       "probability": 0.030
     }
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

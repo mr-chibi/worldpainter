@@ -15,15 +15,15 @@ execute if score @s[tag=colorSmooth] paint_smooth matches 1.. run function mc_br
 #############################################################
 # Particles:
 #############################################################
-execute if score @s paint_size matches 1 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes tiny
-execute if score @s paint_size matches 3 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes small
-execute if score @s paint_size matches 5 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes medium
-execute if score @s paint_size matches 7 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes large
+execute if score @s paint_size matches 1 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes tiny
+execute if score @s paint_size matches 3 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes small
+execute if score @s paint_size matches 5 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes medium
+execute if score @s paint_size matches 7 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.25,tag=prototype] at @s run function mc_worldpainter:commands/paint/particles with storage minecraft:brush_sizes large
 
 #############################################################
 # Remove Entity:
 #############################################################
-execute unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:armor_stand,distance=..0.25,tag=prototype] at @s run kill @s
+execute unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.25,tag=prototype] at @s run kill @s
 
 ############################################################
 # Toggle / Reset

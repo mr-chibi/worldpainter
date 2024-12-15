@@ -22,4 +22,4 @@ execute if score @s[tag=colorSmooth] paint_smooth_pages matches 1.. run function
 execute if score @s[tag=colorBrushSize] paint_brush_size_pages matches 1.. run function mc_brushes:commands/brush_size/keybind
 
 # Display Particles for "Selected Tool", "Schematics":
-execute as @s[tag=colorSchematics,scores={paint_schematic=1..}] run function mc_brushes:commands/schematics/worldpainter/particles
+execute as @s[tag=colorSchematics,scores={paint_schematic=1..}] run function mc_brushes:commands/schematics/worldpainter/particles/init

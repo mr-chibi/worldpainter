@@ -5,8 +5,6 @@
   "effects": {
     "sky_color": 7907327,
     "fog_color": 12638463,
-    "sky_color": 0,
-    "fog_color": 2033407,
     "water_color": 2033407,
     "water_fog_color": 2033407,
     "grass_color": 2033407,
@@ -14,6 +12,6 @@
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

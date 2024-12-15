@@ -11,13 +11,13 @@
     "foliage_color": 0,
     "particle": {
       "options": {
-        "type": "end_rod"
+        "type": "minecraft:end_rod"
       },
       "probability": 0.006
     }
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

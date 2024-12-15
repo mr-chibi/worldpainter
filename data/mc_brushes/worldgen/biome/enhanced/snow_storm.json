@@ -1,8 +1,8 @@
 {
   "temperature": 0,
   "downfall": 0.4,
-  "temperature_modifier": "none",
   "has_precipitation": true,
+  "temperature_modifier": "none",
   "effects": {
     "sky_color": 16777215,
     "fog_color": 16777215,
@@ -12,13 +12,13 @@
     "foliage_color": 16777215,
     "particle": {
       "options": {
-        "type": "snowflake"
+        "type": "minecraft:snowflake"
       },
       "probability": 0.001
     }
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

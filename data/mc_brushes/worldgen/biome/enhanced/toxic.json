@@ -11,13 +11,13 @@
     "foliage_color": 38668,
     "particle": {
       "options": {
-        "type": "mycelium"
+        "type": "minecraft:mycelium"
       },
       "probability": 0.025
     }
   },
   "spawners": {},
   "spawn_costs": {},
-  "carvers": {},
+  "carvers": [],
   "features": []
 }

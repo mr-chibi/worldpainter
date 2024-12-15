@@ -1,0 +1,5 @@
+# Paint Floor:
+$execute if score @s paint_size matches 1 unless block ~ ~-1 ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fill ~-1 ~ ~-1 ~1 ~ ~1 $(id) replace
+$execute if score @s paint_size matches 3 unless block ~ ~-1 ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fill ~-1.5 ~ ~-1.5 ~1.5 ~ ~1.5 $(id) replace
+$execute if score @s paint_size matches 5 unless block ~ ~-1 ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fill ~-2.5 ~ ~-2.5 ~2.5 ~ ~2.5 $(id) replace
+$execute if score @s paint_size matches 7 unless block ~ ~-1 ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fill ~-3.5 ~ ~-3.5 ~3.5 ~ ~3.5 $(id) replace
