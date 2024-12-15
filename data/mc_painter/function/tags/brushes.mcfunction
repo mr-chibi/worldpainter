@@ -1,19 +1,19 @@
 # Assign Tag:
-tag @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}]}] add colorPaint
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Schematic Brush"',"minecraft:custom_data":{Tags:["paint_schematic_brush"]}}}}] add colorSchematics
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Biome Brush"',"minecraft:custom_data":{Tags:["paint_biome_brush"]}}}}] add colorBiome
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Custom Biome Brush"',"minecraft:custom_data":{Tags:["paint_custom_biome_brush"]}}}}] add colorCustomBiome
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Sphere Brush"',"minecraft:custom_data":{Tags:["paint_sphere_brush"]}}}}] add colorSphere
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Smooth Brush"',"minecraft:custom_data":{Tags:["paint_smooth_brush"]}}}}] add colorSmooth
-tag @s[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Pos Brush"',"minecraft:custom_data":{Tags:["paint_position"]}}}}] add colorPos
-tag @s[nbt={SelectedItem:{id:"minecraft:bucket",components:{"minecraft:custom_name":'"Brush Size"',"minecraft:custom_data":{Tags:["paint_brush_size"]}}}}] add colorBrushSize
+execute if items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Paint Brush"',minecraft:custom_data={Tags:["paint_default_brush"]}] run tag @s add colorPaint
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Schematic Brush"',minecraft:custom_data={Tags:["paint_schematic_brush"]}] run tag @s add colorSchematics
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Biome Brush"',minecraft:custom_data={Tags:["paint_biome_brush"]}] run tag @s add colorBiome
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Custom Biome Brush"',minecraft:custom_data={Tags:["paint_custom_biome_brush"]}] run tag @s add colorCustomBiome
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Sphere Brush"',minecraft:custom_data={Tags:["paint_sphere_brush"]}] run tag @s add colorSphere
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Smooth Brush"',minecraft:custom_data={Tags:["paint_smooth_brush"]}] run tag @s add colorSmooth
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Pos Brush"',minecraft:custom_data={Tags:["paint_position"]}] run tag @s add colorPos
+execute if items entity @s weapon.mainhand minecraft:bucket[minecraft:custom_name='"Brush Size"',minecraft:custom_data={Tags:["paint_brush_size"]}] run tag @s add colorBrushSize
 
 # Remove:
-tag @s[nbt=!{Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Paint Brush"',"minecraft:custom_data":{Tags:["paint_default_brush"]}}}]}] remove colorPaint
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Schematic Brush"',"minecraft:custom_data":{Tags:["paint_schematic_brush"]}}}}] remove colorSchematics
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Biome Brush"',"minecraft:custom_data":{Tags:["paint_biome_brush"]}}}}] remove colorBiome
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Custom Biome Brush"',"minecraft:custom_data":{Tags:["paint_custom_biome_brush"]}}}}] remove colorCustomBiome
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Sphere Brush"',"minecraft:custom_data":{Tags:["paint_sphere_brush"]}}}}] remove colorSphere
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Smooth Brush"',"minecraft:custom_data":{Tags:["paint_smooth_brush"]}}}}] remove colorSmooth
-tag @s[nbt=!{SelectedItem:{id:"minecraft:carrot_on_a_stick",components:{"minecraft:custom_name":'"Pos Brush"',"minecraft:custom_data":{Tags:["paint_position"]}}}}] remove colorPos
-tag @s[nbt=!{SelectedItem:{id:"minecraft:bucket",components:{"minecraft:custom_name":'"Brush Size"',"minecraft:custom_data":{Tags:["paint_brush_size"]}}}}] remove colorBrushSize
+execute unless items entity @s weapon.offhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Paint Brush"',minecraft:custom_data={Tags:["paint_default_brush"]}] run tag @s remove colorPaint
+execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Schematic Brush"',minecraft:custom_data={Tags:["paint_schematic_brush"]}] run tag @s remove colorSchematics
+execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Biome Brush"',minecraft:custom_data={Tags:["paint_biome_brush"]}] run tag @s remove colorBiome
+execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Custom Biome Brush"',minecraft:custom_data={Tags:["paint_custom_biome_brush"]}] run tag @s remove colorCustomBiome
+execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Sphere Brush"',minecraft:custom_data={Tags:["paint_sphere_brush"]}] run tag @s remove colorSphere
+execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Smooth Brush"',minecraft:custom_data={Tags:["paint_smooth_brush"]}] run tag @s remove colorSmooth
+execute unless items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_name='"Pos Brush"',minecraft:custom_data={Tags:["paint_position"]}] run tag @s remove colorPos
+execute unless items entity @s weapon.mainhand minecraft:bucket[minecraft:custom_name='"Brush Size"',minecraft:custom_data={Tags:["paint_brush_size"]}] run tag @s remove colorBrushSize
