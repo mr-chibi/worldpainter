@@ -1,0 +1,11 @@
+{
+	"values": [
+		
+		// Array:
+		"minecraft:bucket",
+		"minecraft:sponge",
+		"minecraft:powder_snow_bucket",
+		"minecraft:water_bucket",
+		"minecraft:lava_bucket"
+	]
+}

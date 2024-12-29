@@ -3,8 +3,8 @@ function #mc_brushes:tooltips
 function #mc_brushes:keybinds
 
 # Paint Brush:
-execute if score @s[tag=colorPaint] rclick matches 1.. run function mc_brushes:commands/paint/init with entity @s SelectedItem
-execute if score @s[tag=colorPaint] rclick matches 1.. run function mc_brushes:commands/paint/fluids
+execute unless items entity @s weapon.mainhand #mc_worldpainter:list if score @s[tag=colorPaint] rclick matches 1.. run function mc_brushes:commands/paint/init with entity @s SelectedItem
+execute if items entity @s weapon.mainhand #mc_worldpainter:list if score @s[tag=colorPaint] rclick matches 1.. run function mc_brushes:commands/paint/fluids/init with entity @s SelectedItem
 
 # Check if "Player" is holding "Tool" & "Right clicking":
 execute if score @s[tag=colorBiome,scores={rclick=1..}] paint_pos matches 1.. run function mc_brushes:commands/init
