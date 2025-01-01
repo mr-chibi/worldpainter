@@ -1,3 +1,6 @@
+#
+$execute unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s run particle minecraft:end_rod ~$(x1) ~ ~ $(x2) 0.75 $(z2) 0 50
+
 # ["Default Biomes"]:
 $execute if score @s paint_custom_biome matches 1 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~$(x1) ~-1 ~$(z1) ~$(x2) ~8 ~$(z2) mc_brushes:default/black
 $execute if score @s paint_custom_biome matches 2 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~$(x1) ~-1 ~$(z1) ~$(x2) ~8 ~$(z2) mc_brushes:default/blue

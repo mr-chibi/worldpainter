@@ -1,4 +1,7 @@
 #
+$execute unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s run particle minecraft:end_rod ~$(x1) ~ ~ $(x2) 0.75 $(z2) 0 50
+
+#
 $execute if score @s paint_biome matches 1 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~$(x1) ~-1 ~$(z1) ~$(x2) ~8 ~$(z2) minecraft:badlands
 $execute if score @s paint_biome matches 2 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~$(x1) ~-1 ~$(z1) ~$(x2) ~8 ~$(z2) minecraft:bamboo_jungle
 $execute if score @s paint_biome matches 3 unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..0.75,tag=prototype] at @s align xyz run fillbiome ~$(x1) ~-1 ~$(z1) ~$(x2) ~8 ~$(z2) minecraft:basalt_deltas
