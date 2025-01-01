@@ -16,11 +16,11 @@ execute if items entity @s weapon.mainhand * unless items entity @s hotbar.1 * r
 execute if items entity @s weapon.mainhand * if items entity @s hotbar.1 * run function mc_brushes:commands/paint/masking/init with entity @s Inventory[{Slot:1b}]
 execute if items entity @s weapon.mainhand * if items entity @s hotbar.1 * as @e[type=minecraft:marker,distance=..0.25,tag=prototype] at @s run function mc_brushes:commands/paint/masking/fill with entity @s data
 
+
 #############################################################
 # Particles (Fluids):
 #############################################################
-execute as @e[type=minecraft:marker,distance=..1,tag=prototype] at @s run particle minecraft:flame ~ ~ ~ 0.50 0.75 0.25 0 25
-execute as @e[type=minecraft:marker,distance=..1,tag=mcs_liquids] at @s run particle minecraft:flame ~ ~ ~ 0.50 0.75 0.25 0 25
+execute as @e[type=minecraft:marker,distance=..1,tag=prototype] at @s run particle minecraft:end_rod ~ ~ ~ 0.50 0.75 0.25 0 25
 
 # Remove Entitys:
 execute unless block ~ ~ ~ #mc_worldpainter:preventions as @e[type=minecraft:marker,distance=..1,tag=prototype] at @s run kill @s
