@@ -12,7 +12,6 @@ execute if score @s[tag=colorSchematics] paint_schematic matches 1.. run functio
 execute if score @s[tag=colorSphere] paint_sphere matches 1.. run function mc_brushes:commands/sphere/init
 execute if score @s[tag=colorSmooth] paint_smooth matches 1.. run function mc_brushes:commands/smooth/init
 
-
 #############################################################
 # Particles (Non-Fluids):
 #############################################################

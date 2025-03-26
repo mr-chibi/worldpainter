@@ -15,12 +15,11 @@ execute as @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest] at 
 ##########################
 # OffHand:
 ##########################
-execute if data entity @s[tag=colorPos] Inventory[] run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.id set from entity @s Inventory[{Slot:-106b}].id
-execute if data entity @s[tag=colorPos] Inventory[{Slot:-106b, id:"minecraft:bucket"}] run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.id set value "minecraft:air"
-execute if data entity @s[tag=colorPos] Inventory[{Slot:-106b, id:"minecraft:water_bucket"}] run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.id set value "minecraft:water"
-execute if data entity @s[tag=colorPos] Inventory[{Slot:-106b, id:"minecraft:lava_bucket"}] run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.id set value "minecraft:lava"
-execute if data entity @s[tag=colorPos] Inventory[{Slot:-106b, id:"minecraft:powder_snow_bucket"}] run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.id set value "minecraft:powder_snow"
-
+execute if data entity @s equipment.offhand run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.replace set from entity @s equipment.offhand.id
+execute if data entity @s {equipment:{offhand:{id:"minecraft:bucket"}}} run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.replace set value "minecraft:air"
+execute if data entity @s {equipment:{offhand:{id:"minecraft:water_bucket"}}} run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.replace set value "minecraft:water"
+execute if data entity @s {equipment:{offhand:{id:"minecraft:lava_bucket"}}} run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.replace set value "minecraft:lava"
+execute if data entity @s {equipment:{offhand:{id:"minecraft:powder_snow_bucket"}}} run data modify entity @e[type=minecraft:marker,tag=paint_set,distance=..5,sort=nearest,limit=1] data.replace set value "minecraft:powder_snow"
 
 ##########################
 # Mainhand

@@ -1,2 +1,2 @@
 # Restrict players from having [Items] below:
-clear @s[team=!mc_worldpainter] minecraft:carrot_on_a_stick[minecraft:custom_name="[{\"text\": \"Pos Brush\"}]",minecraft:lore=['{"text": "Right Click to set POS1 and again to POS2.", "italic":false, "color": "#8147FF"}'],minecraft:custom_data={Tags:["paint_position"]}]
+clear @s[team=!mc_worldpainter] minecraft:carrot_on_a_stick[minecraft:custom_name={"text": "Pos Brush"},minecraft:lore=[{"text": "Right Click to set POS1 and again to POS2.", "italic":false, "color": "#8147FF"}],minecraft:custom_data={Tags:["paint_position"]}]

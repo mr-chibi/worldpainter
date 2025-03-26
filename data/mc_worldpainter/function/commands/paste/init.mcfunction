@@ -13,7 +13,7 @@ execute as @e[type=minecraft:marker,tag=paint_copy,distance=..5,sort=nearest] at
 execute as @e[type=minecraft:marker,tag=paint_copy,distance=..5,sort=nearest] at @s store result entity @s data.z2 int 1 run scoreboard players get @p paint_z2
 
 #
-function mc_worldpainter:commands/replace/rows with entity @e[type=minecraft:marker,tag=paint_copy,distance=..5,sort=nearest,limit=1] data
+function mc_worldpainter:commands/paste/rows with entity @e[type=minecraft:marker,tag=paint_copy,distance=..5,sort=nearest,limit=1] data
 
 #
 kill @e[type=minecraft:marker,tag=paint_copy,distance=..16,sort=nearest,limit=1]
